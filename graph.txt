@@ -1,0 +1,4 @@
+as in picture 3:
+
+def mapping(x, y):
+    return math.sin((x+y)/4096*8*math.pi)*1024/8+math.sin(x/2047*math.pi)*1024/4
